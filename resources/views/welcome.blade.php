@@ -13,10 +13,9 @@
         <!-- Styles -->
         
     </head>
-    <body class="antialiased">
-    
-
-        <nav class="sidebar rounded-tr-3xl fixed top-0 bottom-0 lg:left-0 p-2 w-[256px] overflow-y-auto text-center bg-[#222222]">
+    <body class="antialiased flex bg-repeat bg-[#111111]">  
+        
+        <div class="sidebar rounded-tr-3xl lg:left-0 p-2 w-[256px] h-screen overflow-y-auto text-center bg-[#222222]">
             <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center">
                     <svg data-darkreader-inline-stroke="" aria-hidden="true">
@@ -49,12 +48,82 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="25px" height="25px" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M36.8 192H603.2c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 224H320V384H128V224H64zm448 0V480c0 17.7 14.3 32 32 32s32-14.3 32-32V224H512z"/></svg>
                 <span class="text-[15px] ml-4 text-white font-bold">Abbonamenti</span>
             </div>
-        </nav>
-        <main>
-        <div class="content bg-[url('https://padlet.net/packs/media/images/dot_grid_dark-6b049085d136a66cadc8865290401049.png')]">
         </div>
-        </main>
 
-   
+        <main class="ml-32">
+
+            <div id="title" class="text-[64px] mt-20 text-white">
+                <p> È una notte stellata.</h1>
+                <p class="font-bold">Fai qualcosa di stellare.</h2>
+            </div>
+
+
+            <div id="button-container" class="flex my-12">
+                <div class="bg-[#ff4081] p-2.5 flex items-center rounded-md mr-5 px-4 duration-300 cursor-pointer hover:bg-[#b3003b] text-white">
+                    <span class="text-2xl text-white font-bold">Registrati gratis</span>
+                </div>
+
+                <div class="bg-white p-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-[#333333] text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#222222" class="bi bi-microsoft" viewBox="0 0 16 16">
+                    <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
+                    </svg>
+                    <span class="text-2xl ml-4 text-[#222222] font-bold">Installa l'app Windows</span>
+                </div>
+            </div>
+
+            <div class="cards mx-30">
+                <div id="first-row" class="flex justify-center">
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_250%2Cw_472&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Fgrid_preview_landscape-60bc7a7cee78b9fc564fecc337d3ba42.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Muro</div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_250%2Cw_472&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Ffree_preview_landscape-cda6727dd18c5b4cf0c3d0257311bca1.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Tela</div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_250%2Cw_472&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Fshelf_preview_landscape-164cf6bbae0aec4cea3afa922de673a4.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Colonna</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="second-row" class="flex mt-4 justify-center">
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_188%2Cw_349&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Fstream_preview_landscape-bd4a4ea9a7fd9f12a4793a8bdaf25f1a.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Lista</div>
+                        </div>
+                    </div>
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_188%2Cw_349&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Fmatrix_preview_landscape-5da4777e5cab859073dbbc1aa580ce1e.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Griglia</div>
+                        </div>
+                    </div>
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_188%2Cw_349&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Ftimeline_preview_landscape-ac5b845c2aa14bbe40154fc85e663395.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Timeline</div>
+                        </div>
+                    </div>
+                    <div class="max-w-sm rounded-xl overflow-hidden mr-4 ml-4 bg-[#1e1e1e]">
+                        <img class="w-full" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_188%2Cw_349&url=https%3A%2F%2Fpadlet.net%2Fpacks%2Fmedia%2Fimages%2Fmap_preview_landscape-07b7144e84dd51ac5ea6f972b66bc4cd.png">
+                        <div class="pl-2 py-2">
+                            <div class="font-bold text-white">Mappa</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
     </body>
 </html>
