@@ -17,16 +17,20 @@
                 <div class="p-3">
                     <div>Tutto</div>
                     <hr class="h-px my-2 bg-gray-700 border-0 ">
-                    <div>Archiviato</div>
+                    <div>Muro</div>
+                    <hr class="h-px my-2 bg-gray-700 border-0 ">
+                    <div>Lista</div>
+                    <hr class="h-px my-2 bg-gray-700 border-0 ">
+                    <div>Griglia</div>
                 </div>
             </div>
 
-            <!-- right -->
+            <!-- center -->
             <div class="bg-yellow-500 col-span-5">
                 <div class="p-3 flex flex-row justify-between">
                     <div>
                         <div class="text-gray-200">
-                            MUKUND GUPTA
+                            Galleria
                         </div>
                         <div class="text-white font-semibold text-4xl">
                             Tutto
@@ -34,14 +38,12 @@
                     </div>
                     <div class="mt-4 p-2 text-sm">
                         <span>Nome</span>
-                        <span>Ultima modifica</span>
+                        <span>Data di creazione</span>
                     </div>
                 </div>
-                <div class="text-center bg-red-500 w-fit m-auto mt-40">
-                    <div class="text-white font-semibold text-xl -mb-2">Ancora nessun padlet.</div>
-                    <div class="text-gray-300">Perchè aspettare? Crea qualcosa di grandioso</div>
-                </div>
             </div>
+
+            <!-- rigth -->
         </div>
     </div>
 </body>

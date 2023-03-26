@@ -15,21 +15,21 @@
             <!-- left -->
             <div class="bg-red-500 col-span-1">
                 <div class="p-3">
-                    <div>Tutto</div>
+                    <div>Preferiti</div>
                     <hr class="h-px my-2 bg-gray-700 border-0 ">
-                    <div>Archiviato</div>
+                    <div>Nuova Cartella</div>
                 </div>
             </div>
 
-            <!-- right -->
+            <!-- center -->
             <div class="bg-yellow-500 col-span-5">
                 <div class="p-3 flex flex-row justify-between">
                     <div>
                         <div class="text-gray-200">
-                            MUKUND GUPTA
+                            Segnalibri
                         </div>
                         <div class="text-white font-semibold text-4xl">
-                            Tutto
+                            Preferiti
                         </div>
                     </div>
                     <div class="mt-4 p-2 text-sm">
@@ -38,10 +38,12 @@
                     </div>
                 </div>
                 <div class="text-center bg-red-500 w-fit m-auto mt-40">
-                    <div class="text-white font-semibold text-xl -mb-2">Ancora nessun padlet.</div>
-                    <div class="text-gray-300">Perchè aspettare? Crea qualcosa di grandioso</div>
+                    <div class="text-white font-semibold text-xl -mb-2">Non hai ancora inserito nessun padlet tra i segnalibri.</div>
+                    <div class="text-gray-300">Questo è uno spazio sicuro per i padlet a cui tieni.</div>
                 </div>
             </div>
+
+            <!-- rigth -->
         </div>
     </div>
 </body>
