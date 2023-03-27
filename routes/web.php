@@ -40,3 +40,7 @@ Route::get('/dashboard/gallery', function () {
 Route::get('/team/create', function () {
     return view('createTeam');
 });
+
+Route::get('/creazione', function () {
+    return view('creazionePadlet');
+});

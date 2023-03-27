@@ -11,7 +11,7 @@
     @include('partials.sidebar')
     <div class="w-full text-lg">
         @include('partials.header')
-        <div class="h-screen flex flex-col">
+        <div class="flex flex-col">
             <div class="bg-red-500 flex flex-row justify-between">
                 <div class="p-4">
                     <h1 class="text-white text-4xl font-bold">Recenti</h1>

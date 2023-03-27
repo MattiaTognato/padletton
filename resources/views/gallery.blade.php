@@ -11,7 +11,7 @@
     @include('partials.sidebar')
     <div class="w-full text-lg">
         @include('partials.header')
-        <div class="grid grid-cols-6 grid-rows-1 h-screen">
+        <div class="grid grid-cols-6 grid-rows-1">
             <!-- left -->
             <div class="bg-red-500 col-span-1">
                 <div class="p-3">

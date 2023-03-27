@@ -20,3 +20,7 @@
         </div>
     </div>
 </div>
+
+<div class="hidden bg-green-500 w-1/3 h-screen absolute right-0 top-0">
+
+</div>

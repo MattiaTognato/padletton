@@ -11,7 +11,7 @@
     @include('partials.sidebar')
     <div class="w-full text-lg">
         @include('partials.header')
-        <div class="h-screen flex flex-col">
+        <div class="flex flex-col">
             <!-- left -->
             <div class="bg-red-500 flex flex-row justify-between">
                 <div class="p-4">
