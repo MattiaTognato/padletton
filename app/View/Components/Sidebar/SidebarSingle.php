@@ -15,12 +15,13 @@ class SidebarSingle extends Component
     public $isMainIcon;
     public $icon;
     public $url;
-    public function __construct($title, $isMainIcon, $url)
+    public function __construct($title, $isMainIcon, $url, $icon)
     {
         //
         $this->title = $title;
         $this->isMainIcon = $isMainIcon;
         $this->url = $url;
+        $this->icon = $icon;
     }
 
     /**

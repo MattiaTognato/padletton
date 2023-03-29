@@ -16,10 +16,10 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         if (!Background::count()) {
-            $this->populate();
+            $this->populateColours();
         }
     }
-    public function populate()
+    public function populateColours()
     {
         foreach ($this->colours as $colour) {
             DB::table('backgrounds')->insert([
