@@ -13,7 +13,7 @@
         <!-- Styles -->
         
     </head>
-    <body class="antialiased flex bg-repeat bg-[#111111]">  
+    <body class="antialiased flex bg-[#111111]">  
         
         <div class="sidebar rounded-tr-3xl lg:left-0 p-2 w-[256px] h-screen overflow-y-auto text-center bg-[#222222]">
             <div class="text-gray-100 text-xl">
@@ -23,13 +23,15 @@
                     </svg>
                     <i class="bi bi-x cursor-pointer ml-28 lg:hidden"></i>
                 </div>
-                <div class="p-2.5 mb-20 flex items-center rounded-md px-4 duration-300 cursor-pointer bg-[#111111] hover:bg-black text-white">
-                    <i class="bi bi-bookmark-fill"></i>
-                    <svg data-darkreader-inline-stroke="" color="deeppink" width="25px" height="25px"  stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    <span class="text-[15px] ml-4 text-gray-200 font-bold">Accedi</span>
-                </div>
+                <a href="{{ route('login')}}">
+                    <div class="p-2.5 mb-20 flex items-center rounded-md px-4 duration-300 cursor-pointer bg-[#111111] hover:bg-black text-white">                    
+                        <i class="bi bi-bookmark-fill"></i>
+                        <svg data-darkreader-inline-stroke="" color="deeppink" width="25px" height="25px"  stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-[15px] ml-4 text-gray-200 font-bold">Accedi</span>
+                    </div>
+                </a>
                 
             </div>
 
@@ -59,9 +61,11 @@
 
 
             <div id="button-container" class="flex my-12">
-                <div class="bg-[#ff4081] p-2.5 flex items-center rounded-md mr-5 px-4 duration-300 cursor-pointer hover:bg-[#b3003b] text-white">
-                    <span class="text-2xl text-white font-bold">Registrati gratis</span>
-                </div>
+                <a href="{{ route('register')}}">
+                    <div class="bg-[#ff4081] p-2.5 flex items-center rounded-md mr-5 px-4 duration-300 cursor-pointer hover:bg-[#b3003b] text-white">
+                        <span class="text-2xl text-white font-bold">Registrati gratis</span>
+                    </div>
+                </a>
 
                 <div class="bg-white p-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-[#333333] text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#222222" class="bi bi-microsoft" viewBox="0 0 16 16">
